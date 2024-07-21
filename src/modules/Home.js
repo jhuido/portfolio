@@ -2,9 +2,9 @@ import profileImage from '../images/profile.jpg';
 
 function Home() {
   return (
-    <div className="flex justify-center content-center p-12 w-2/3">
+    <div className="flex justify-center content-center mt-12 p-12 w-2/3">
         <div className='w-1/3 p-2 rounded-lg ' >
-            <img src={profileImage} alt="Imagen de perfil" className='w-full rounded-xl object-cover object-top max-h-[280px] '/>
+            <img src={profileImage} alt="Imagen de perfil" className='w-full rounded-xl object-cover object-top max-h-[380px] '/>
         </div>
         <div className='flex justify-start content-start flex-col w-2/3 p-8 '>
             <h1 className="jost-custom text-5xl font-extrabold text-cyan-600 "><span className='text-cyan-700 text-3xl'>Soy</span> Josefina Huidobro</h1>

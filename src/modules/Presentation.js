@@ -1,4 +1,4 @@
-import profileImage from '../images/profile.jpg';
+
 
 function Presentation() {
   return (
